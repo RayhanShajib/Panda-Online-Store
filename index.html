@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Panda Online Store</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <meta name="viewport" content="width=device-width" initial-scale="1" shrink-to-fit="no"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="css/all.min.css" rel="stylesheet"/>
+    <link href="css/fontawesome.min.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css"/>
+</head>
+<body>
+    <div class="container">
+    <header>
+    
+    <nav class="navbar navbar-expand-md mb-4">
+      
+        <a class="navbar-brand" href="#">
+    <div class="logo">
+        <img id="mainlogo" src="images/logo.png"/>
+    </div>
+        </a>
+        <button  id="icon" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-align-justify"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bagpack">Bagpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+                
+              </li>
+                
+          </ul>
+      
+        </div>
+ 
+      </nav>
+    </header>
+</div>
+<div class="container">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <div class="row align-items-center">
+         <div class="col-md-7">
+           <h1>Best LED TV</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus neque molestiae saepe voluptate exercitationem? Quos accusantium sequi vero nihil fuga!</p>
+         <div class="price"><p><h1>$1200</h1></p></div>
+         <button type="button" class="btn btn-primary btn-lg" id="button">Buy Now</button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/tv1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>      
+      </div>
+      <div class="carousel-item" data-interval="10000">
+        <div class="row align-items-center">
+          <div  id="content" class="col-md-7">
+        <h1>Best Gaming Headphone</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Repellendus neque molestiae saepe voluptate exercitationem? Quos accusantium sequi vero nihil fuga!</p>
+      <div class="price"><p><h1>$200</h1></p></div>
+      <button type="button" class="btn btn-primary btn-lg" id="button">Buy Now</button>
+    </div>  
+    <div class="col-md-5">
+      <img src="images/headphone.png" class="d-block w-100" alt="...">
+     </div>
+      </div>    
+      </div>
+      <div class="carousel-item" data-interval="10000">
+        <div class="row align-items-center">
+          <div id="content" class="col-md-7">
+            <h1>Xbox for Gaming</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Repellendus neque molestiae saepe voluptate exercitationem? Quos accusantium sequi vero nihil fuga!</p>
+          <div class="price"><p><h1>$500</h1></p></div>
+          <button type="button" class="btn btn-primary btn-lg" id="button">Buy Now</button>
+          </div>
+          <div class="col-md-5">
+            <img  src="images/xbox.png" class="d-block w-100" alt="...">
+           </div>
+        </div>      
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="container catagories">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="cat1 d-flex justify-content-between align-items-center">
+        <h1>Watch</h1>
+        <img src="images/watch.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat2 d-flex justify-content-between align-items-center">
+        <h1>Bag</h1>
+        <img src="images/bag.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat3 d-flex justify-content-between align-items-center">
+        <h1>Shoes</h1>
+        <img src="images/shoes.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<div id="shoes" class="container">
+  <h1>Shoes</h1>
+  <div class="card-deck">
+    <div id="card" class="card">
+      <img src="images/shoe-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum!</p>
+        <p class="card-text"><h5>$100</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+    <div id="card" class="card">
+      <img src="images/shoe-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, aspernatur.</p>
+        <p class="card-text"><h5>$200</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+    <div id="card" class="card">
+      <img src="images/shoe-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quia!</p>
+        <p class="card-text"><h5>$300</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="bagpack" class="container ">
+  <h1>Bagpacks</h1>
+  <div class="card-deck">
+    <div id="card" class="card">
+      <img src="images/bag-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, reiciendis!</p>
+        <p class="card-text"><h5>$100</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+    <div id="card" class="card">
+      <img src="images/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam.</p>
+        <p class="card-text"><h5>$200</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+    <div id="card" class="card">
+      <img src="images/bag-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Product title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corrupti</p>
+        <p class="card-text"><h5>$300</h5></p>
+        <button type="button" class="btn btn-primary btn-lg" id="buy">Buy Now >></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container sweet-color-bg d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+    <h3>Let's Stay in Touch</h3>
+    <h6>Get updates on sales, specials and more</h6>
+    <input class="form-control" type="text" name="" id="" placeholder="">
+    <br>
+    <button type="button" class="btn btn-primary btn-lg" id="buy">Submit</button>
+  </div>
+</div>
+<footer>
+  <small>&copy; 2020. All rights are reserved by Panda Commerce. Sofia, Bulgaria.</small>
+</footer>
+
+</body>
+</html>
